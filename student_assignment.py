@@ -164,19 +164,3 @@ def demo(question):
     
     return response
 
-print(generate_hw01('2024年台灣10月紀念日有哪些?'))
-print(generate_hw02('2024年台灣10月紀念日有哪些?'))
-print(generate_hw03('2024年台灣10月紀念日有哪些?', '根據先前的節日清單，這個節日{"date": "10-31", "name": "蔣公誕辰紀念日"}是否有在該月份清單？'))
-print(generate_hw04('請問中華台北的積分是多少'))
-
-
-#result = generate_hw01("2024年台灣10月的紀念日有哪些？, 請回傳一個.jason, 將每個節日存到Result欄位, 節日名稱存到Result欄位的name項目, 節日日期存到Result欄位的date項目")
-
-# 指定要保存的文件名
-#filename = 'taiwan_holidays_2024_october.json'
-
-#with open(filename, 'w', encoding='utf-8') as file:
-#    file.write(result)
-
-#print(f"JSON 內容已成功保存到 {filename}")
-
